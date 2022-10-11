@@ -7,7 +7,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-brand {
+  font-size: 1.5rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.site-container {
+  min-height: 100vh;
+}
+
+.row {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #FF9D00;
+  border: none;
+  box-shadow: 1px 1px #404040;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #e38d02;
+}
+
+.partner-info:hover {
+  box-shadow: 1px 1px 2px #404040;
+}
+
+.partner-info {
+  display: flex;
+}
+
+.partner-info input {
+  width: 6rem;
+}
+
+.card-text {
+  color: #FF9D00;
+  font-weight: bold;
+}
+
+.list-group-item h2 {
+  color: #e38d02;
+}
+
 header {
+  display: flex;
+  justify-content: center;
   background-color: #FF9D00;
   padding: 1rem;
 }
@@ -16,4 +64,28 @@ header a {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+}
+
+/* .partners {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.partner {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.partner-info {
+  padding: 1rem;
+  justify-content: center;
+}
+
+.description {
+  margin-top: 50px;
 }
